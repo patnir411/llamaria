@@ -1,0 +1,48 @@
+# Ignore build output directories
+/bin/
+/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.sln.ide
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled binaries
+*.dll
+*.exe
+
+# Ignore build artifacts
+*.bin
+*.pdb
+
+# Ignore Visual Studio files
+.vs/
+Build/
+Debug/
+Release/
+*.log
+
+# Ignore configuration files
+*.config
+*.json
+*.xml
+
+# Ignore any files related to package management that aren't needed
+packages/
+*.nupkg
+
+# Ignore IDE-specific files
+.idea/
+*.swp
+~*
+*.DS_Store
+Thumbs.db
+
+# Ignore files containing sensitive information
+*.pem
+*.key
+*.env
